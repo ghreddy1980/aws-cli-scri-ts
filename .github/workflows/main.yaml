@@ -4,9 +4,9 @@ on:
     branches: [main]
 jobs:
   build:
-     name: build image
-     runs-on: ubuntu-latest
-     steps:
+    name: build image
+    runs-on: ubuntu-latest
+    steps:
      - name: check out code
        uses: actions/checkout@v2
      - name: Configure AWS credentials
